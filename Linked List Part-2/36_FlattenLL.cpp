@@ -132,7 +132,7 @@ Node * merge(Node * node1, Node * node2){
     else
         temp->bottom = node2; 
     
-    return res -> bottom;
+    return res->bottom;
 }
 Node *flatten(Node *root)
 {
